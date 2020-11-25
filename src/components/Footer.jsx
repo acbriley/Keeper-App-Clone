@@ -4,7 +4,7 @@ let date = new Date;
 
 function Footer(){
   return(
-    <footer>Copyright Andrew Briley {date.getDate()}</footer>
+    <footer>Copyright Andrew Briley {date.getFullYear()}</footer>
   )
 }
 
